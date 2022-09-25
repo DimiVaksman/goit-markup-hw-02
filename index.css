@@ -1,0 +1,191 @@
+:root{
+--primary-font: "Roboto";
+--secandary-font: "Raleway";
+--primary-color: rgba(33, 33, 33, 1);
+--secandary-color: rgba(117, 117, 117, 1);
+--blue-color: rgba(33, 150, 243, 1);
+--white-color: rgba(255, 255, 255, 1);
+}
+body{
+ text-decoration: none;   
+ list-style-type: none;
+}
+
+
+                                          /* !!!!!!!!!!HEADER!!!!!!!!!! */
+                                          
+.header{
+background: #FFFFFF;
+}
+.logo{
+    font-family:var(--secandary-font);
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.logo:focus ,
+.logo:active{
+/*  */
+}
+
+
+
+/* LOGOSPAN */
+span{
+    color: var(--blue-color)
+}
+
+.nav-links{
+font-family: var(--primary-font);
+color: var(--primary-color);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+list-style-type: none;
+}
+
+.nav-links:hover , 
+.nav-links:focus {
+    color: var(--blue-color);
+    cursor:pointer;
+}
+
+.nav-links:active {
+    color: var(--blue-color)
+}
+
+/* ACTIVE??????? */
+
+
+.header-addres{
+font-family: var(--primary-font);
+color: var(--secandary-color);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+list-style-type: none;
+}
+ .header-addres:hover ,
+ .header-addres:focus {
+    color: var(--blue-color);
+ }
+
+
+
+                                           /* !!!!!!!!!!!!!!!!!!!MAIN!!!!!!!!!!!!!!! */
+
+
+
+
+.hero{
+ background-color: rgba(47, 48, 58, 1);
+}
+                                            
+.hero-tittle{
+font-family: var(--primary-font);
+color: var(--white-color);
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+background-color:rgba(47, 48, 58, 1);
+text-align: center;}
+
+
+.hero-button{
+
+font-family: var(--primary-font);
+color: var(--white-color);
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+background-color: var(--blue-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border-style: none;
+}
+
+.hero-button:hover , 
+.hero-button:focus{
+background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+
+
+.ouer-works{
+    background-color:#F5F5F5;
+}
+
+.ow-li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.zero-tittleh2{
+    color: rgba(0, 0, 0, 0); 
+    position: absolute;
+    width: 1px;
+    height: 1px; 
+    margin: -1px; 
+    border: 0;
+    padding: 0; 
+    white-space: nowrap; 
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;} 
+
+    .ow-tittleh3{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+.ow-text{
+    font-family: var(--primary-font);
+    color: var(--secandary-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;    
+    letter-spacing: 0.03em;
+}
+
+.tittleh2{
+font-family:var(--primary-font);
+color: var(--primary-color);
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.ow-image{
+    text-decoration: none;
+    list-style-type: none;
+}

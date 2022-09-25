@@ -5,65 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="./index.html">Студія</a> 
+    <header class="header">
+        <nav class="nav">
+            <a class="logo" href="./index.html"><span>Web</span>Studio</a>
+            <ul class="nav-links">
+                <li><a class="nav-links" href="./index.html">Студія</a> 
                 </li>
-                <li><a href="./portfolio.html">Портфоліо</a> 
+                <li><a class="nav-links" href="./portfolio.html">Портфоліо</a> 
                 </li>
-                <li><a href="">Контакти</a> 
+                <li><a class="nav-links" href="">Контакти</a> 
                 </li>
             </ul>
             </nav>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="header-addres">
+                <li><a class="header-addres" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="header-addres" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
     </header>
     <main>
-       <section>
-        <h1>Ефективні рішення для вашого бізнесе</h1>
-        <button class="button">Замовити послугу</button>
+       <section class="hero">
+        <h1 class="hero-tittle">Ефективні рішення для вашого бізнесе</h1>
+        <button class="hero-button" type="button">Замовити послугу</button>
        </section>
-       <section>
-        <h2>Нащі особливості</h2>
-        <ul>
-            <li> 
-                <h3>Увага до деталей</h3>   
-                <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>                 
+       <section class="ouer-works">
+        <h2 class="zero-tittleh2">Нащі особливості</h2>
+        <ul class="ow">
+            <li class="ow-li"> 
+                <h3 class="ow-tittleh3">Увага до деталей</h3>   
+                <p class="ow-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>                 
             </li>
-            <li> 
-                <h3>Пунктуальність</h3>   
-                <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>                 
+            <li class="ow-li"> 
+                <h3 class="ow-tittleh3">Пунктуальність</h3>   
+                <p class="ow-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>                 
             </li>
-            <li> 
-                <h3>Планування</h3>   
-                <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>                 
+            <li class="ow-li"> 
+                <h3 class="ow-tittleh3">Планування</h3>   
+                <p class="ow-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>                 
             </li>
-            <li> 
-                <h3>Сучасні технології</h3>   
-                <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>                 
+            <li class="ow-li"> 
+                <h3 class="ow-tittleh3">Сучасні технології</h3>   
+                <p class="ow-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>                 
             </li>
         </ul>
-       </section>
-        <section>
-            <h2>Чим ми займаємося</h2>
+            <h2 class="tittleh2">Чим ми займаємося</h2>
             <ul>
-                <li>
+                <li class="ow-image">
                     <img src="./image/imgDZ1.jpg" alt="Людина на клавіатурі набирає код за допомоною планшету" 
                     width="370" 
                     height="294">
                 </li>
-                <li>
+                <li class="ow-image">
                     <img src="./image/imgDZ2.jpg" alt="Людина тримає телефон у лівій руці та працює за ноутбуком" 
                     width="370" 
                     height="294">
                 </li>
-                <li>
+                <li class="ow-image">
                     <img src="./image/imgDZ3.jpg" alt="Людина на планшенті обирає відтінок фарби" 
                     width="370" 
                     height="294">
@@ -71,28 +73,28 @@
             </ul>
             
         </section>
-        <section>
-            <h2>Наша команда</h2>
+        <section class="ouer-team">
+            <h2 class="tittleh2">Наша команда</h2>
             <ul>
-                <li>
+                <li class="ouer-team">
                         <img src="./image/imgNK1.jpg" alt="Чоловік в окулярах з бородою та в рубашці посміхається"
                         width="270" 
                         height="260">
                         <h3>Ігор Дем'яненко</h3><p>Product Designer</p>
                 </li>
-                   <li>
+                   <li class="ouer-team">
                         <img src="./image/imgNK2.jpg" alt="Жінка в окулярах з світлим волоссям посміхається"
                         width="270"
                         height="260">
                         <h3>Ольга Рєпіна</h3><p>Frontend Developer</p>
                    </li>
-                   <li>
+                   <li class="ouer-team">
                         <img src="./image/imgNK3.jpg" alt="Чоловік у рубашці посміхається"
                         width="270"
                         height="260">
                         <h3>Микола Тарасов</h3><p>Marketing</p>
                    </li>                  
-                  <li>
+                  <li class="ouer-team">
                         <img src="./image/imgNK4.jpg" alt="Чоловік у чьорній футбольці в окулярах посміхається"
                         width="270"
                         height="260">
