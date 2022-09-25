@@ -189,3 +189,86 @@ letter-spacing: 0.03em;
     text-decoration: none;
     list-style-type: none;
 }
+.ouer-team{
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgba(245, 244, 250, 1);
+}
+
+.tittle-name-team{
+font-family: var(--primary-font);
+color: var(--primary-color);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+.text-jobtittle{
+    font-family:var(--primary-font);
+    font-style: var(--secandary-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+
+                                                  /* !!!!!!!!!!!FOOTER!!!!!!!!!! */
+.footer{
+    background-color:rgba(47, 48, 58, 1);
+}
+.logo-footer{
+font-family: var(--secandary-font);
+color:var(--white-color);
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
+.footer-add{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.footer-addres{
+font-family:var(--primary-font);
+color: var(--secandary-color);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-decoration: none;
+list-style-type: none;
+}
+.footer-addres:hover , 
+.footer-addres:focus {
+    color: var(--blue-color);
+}
+
+
+.footer-map{
+    text-decoration: none;
+    list-style-type: none;
+}
+.map{
+font-family:var(--primary-font);
+color: var(--white-color);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-decoration: none;
+list-style-type: none;
+}
+
+.map:hover , 
+.map:focus{
+    color: var(--blue-color);
+}
