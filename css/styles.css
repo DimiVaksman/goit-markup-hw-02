@@ -7,14 +7,14 @@
   --white-color: rgba(255, 255, 255, 1);
 }
 body {
-  text-decoration: none;
-  list-style-type: none;
+font-family: var(--primary-font);
+color: var(--primary-color);
 }
 
 /* !!!!!!!!!!HEADER!!!!!!!!!! */
 
 .header {
-  background: #ffffff;
+  background: var(--white-color);
 }
 .logo {
   font-family: var(--secandary-font);
