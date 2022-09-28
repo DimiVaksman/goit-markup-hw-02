@@ -4,25 +4,21 @@
   --primary-color: #212121;
   --secandary-color: #757575;
   --blue-color: #2196F3;
-  --white-color: #F5F5F5;
+  --white-color: #ffffff;
 }
 body {
 font-family: var(--primary-font);
 color: var(--primary-color);
-background-color: #F5F5F5;
+background-color: var(--white-color);
 font-size: 14px;
 letter-spacing: 0.03em;
 }
 
 /* !!!!!!!!!!HEADER!!!!!!!!!! */
 
-.header {
-  background: var(--white-color);
-}
 .logo {
   font-family: var(--secandary-font);
   color: var(--primary-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -44,7 +40,6 @@ span {
 .nav-links {
   font-family: var(--primary-font);
   color: var(--primary-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -68,7 +63,6 @@ span {
 .header-addres {
   font-family: var(--primary-font);
   color: var(--secandary-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -90,7 +84,6 @@ span {
 .hero-tittle {
   font-family: var(--primary-font);
   color: var(--white-color);
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -103,7 +96,6 @@ span {
 .hero-button {
   font-family: var(--primary-font);
   color: var(--white-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -145,7 +137,6 @@ span {
 .ow-tittleh3 {
   font-family: var(--primary-font);
   color: var(--primary-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -155,7 +146,6 @@ span {
 .ow-text {
   font-family: var(--primary-font);
   color: var(--secandary-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -165,7 +155,6 @@ span {
 .tittleh2 {
   font-family: var(--primary-font);
   color: var(--primary-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -186,7 +175,6 @@ span {
 .tittle-name-team {
   font-family: var(--primary-font);
   color: var(--primary-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -195,7 +183,7 @@ span {
 
 .text-jobtittle {
   font-family: var(--primary-font);
-  font-style: var(--secandary-color);
+  color var(--secandary-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -209,7 +197,6 @@ span {
 .logo-footer {
   font-family: var(--secandary-font);
   color: var(--white-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -224,7 +211,6 @@ span {
 .footer-addres {
   font-family: var(--primary-font);
   color: var(--secandary-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -244,7 +230,6 @@ span {
 .map {
   font-family: var(--primary-font);
   color: var(--white-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -263,7 +248,6 @@ span {
 .filters-button {
   font-family: var(--primary-font);
   color: var(--primary-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -287,17 +271,12 @@ span {
   border-radius: 4px;
 }
 
-.sec-filters {
-  background: var(--white-color);
-}
-
 .li-img {
   list-style-type: none;
 }
 .portfolio-title {
   font-family: var(--primary-font);
   color: var(--primary-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -306,7 +285,6 @@ span {
 .portfolio-text-two {
   font-family: var(--primary-font);
   color: var(--secandary-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
