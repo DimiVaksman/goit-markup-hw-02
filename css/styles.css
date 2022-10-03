@@ -14,9 +14,51 @@ font-size: 14px;
 letter-spacing: 0.03em;
 }
 
+.list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container{
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* !!!!!!!!!!HEADER!!!!!!!!!! */
 
+.nav{
+
+  display: flex;
+  align-items: center;
+}
+
+
 .logo {
+
+  display: flex;
+margin-right: 93px;
+
   font-family: var(--secandary-font);
   color: var(--primary-color);
   font-weight: 700;
@@ -29,7 +71,6 @@ letter-spacing: 0.03em;
 
 .logo:focus,
 .logo:active {
-  /*  */
 }
 
 /* LOGOSPAN */
@@ -37,7 +78,11 @@ span {
   color: var(--blue-color);
 }
 
+
 .nav-links {
+  display: flex;
+  padding-inline-start:0%;
+
   font-family: var(--primary-font);
   color: var(--primary-color);
   font-weight: 500;
@@ -47,6 +92,15 @@ span {
   text-decoration: none;
   list-style-type: none;
 }
+
+
+.nav-links .item:not(:last-child){
+  margin-right: 50px;
+}
+
+/* .nav-links .item+.item{
+  margin-left: 50px;
+} */
 
 .nav-links:hover,
 .nav-links:focus {
@@ -58,9 +112,23 @@ span {
   color: var(--blue-color);
 }
 
-/* ACTIVE??????? */
+
+.header-addres-auth{
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+}
+
+.header-addres-auth .item:not(:last-child){
+  margin-right: 50px;
+}
+
+/* .header-addres-auth .item+.item{
+  margin-left: 50px;
+} */
 
 .header-addres {
+
   font-family: var(--primary-font);
   color: var(--secandary-color);
   font-weight: 500;
@@ -293,4 +361,31 @@ span {
 
 .map{
   list-style-type:  none;
+}
+
+
+
+
+/* -------------------------PORTFOLIO-PICTURES-Filter */
+
+
+.pictures-filter{
+  display: flex; 
+  flex-wrap: wrap;
+
+}
+
+.li-img{
+  width: 370px;
+  /* width: calc((100%-60px)/3); */
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.li-img:nth-child(3n) {
+margin-right: 0;
+}
+
+.li-img:nth-last-child(-n +3 ){
+  margin-bottom: 0;
 }
