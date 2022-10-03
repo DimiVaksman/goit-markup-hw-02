@@ -94,11 +94,11 @@ span {
 }
 
 
-.nav-links .item:not(:last-child){
+.nav-links .item-nav:not(:last-child){
   margin-right: 50px;
 }
 
-/* .nav-links .item+.item{
+/* .nav-links .item-nav+.item-nav{
   margin-left: 50px;
 } */
 
@@ -184,7 +184,7 @@ span {
 }
 
 
-.ow-li {
+.ouer-works-list {
   text-decoration: none;
   list-style-type: none;
 }
@@ -202,7 +202,7 @@ span {
   overflow: hidden;
 }
 
-.ow-tittleh3 {
+.ouer-works-tittle{
   font-family: var(--primary-font);
   color: var(--primary-color);
   font-weight: 700;
@@ -211,7 +211,7 @@ span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.ow-text {
+.ouer-works-text{
   font-family: var(--primary-font);
   color: var(--secandary-color);
   font-weight: 400;
@@ -220,7 +220,7 @@ span {
   letter-spacing: 0.03em;
 }
 
-.tittleh2 {
+.what-we-do-tittle{
   font-family: var(--primary-font);
   color: var(--primary-color);
   font-weight: 700;
@@ -230,17 +230,31 @@ span {
   letter-spacing: 0.03em;
 }
 
-.ow-image {
+.what-we-do-item {
   text-decoration: none;
   list-style-type: none;
-}
-.ouer-team {
-  text-decoration: none;
-  list-style-type: none;
-  background-color: rgba(245, 244, 250, 1);
 }
 
-.tittle-name-team {
+.ouer-team {
+  background-color:rgba(245, 244, 250, 1);
+}
+
+.ouer-team-tittle{
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.ouer-team-item {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: --
+}
+
+.team-tittle {
   font-family: var(--primary-font);
   color: var(--primary-color);
   font-weight: 500;
@@ -249,9 +263,9 @@ span {
   letter-spacing: 0.03em;
 }
 
-.text-jobtittle {
+.ouer-taem-text {
   font-family: var(--primary-font);
-  color var(--secandary-color);
+  color: var(--secandary-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -271,7 +285,7 @@ span {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.footer-add {
+.footer-item {
   text-decoration: none;
   list-style-type: none;
 }
